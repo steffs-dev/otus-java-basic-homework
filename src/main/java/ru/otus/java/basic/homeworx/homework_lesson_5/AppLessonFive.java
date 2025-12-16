@@ -6,14 +6,12 @@ public class AppLessonFive {
 
     public static void main(String[] args) {
         printLineNTimes(3, "privet");
-        sumOfArrayElements(new int[]{1, 2, 3, 4, 5});
+        sumOfArrayElementsOverFive(new int[]{1, 2, 5, 6, 7});
         System.out.println(Arrays.toString(fillArrayWithNumber(9, new int[6])));
         System.out.println(Arrays.toString(increaseArrayElementsByNumber
                 (3, new int[]{1, 2, 3, 4, 5})));
         sumsOfArrayHalvesComparator(new int[]{1, 2, 3, 4, 5, 6});
         sumsOfArrayHalvesComparator(new int[]{1, 9, 3, 4, 5});
-
-
     }
 
     /*Реализуйте метод, принимающий в качестве аргументов целое число и строку,
@@ -28,10 +26,12 @@ public class AppLessonFive {
     /*Реализуйте метод, принимающий в качестве аргумента целочисленный массив, суммирующий
     все элементы, значение которых больше 5, и печатающий полученную сумму в консоль.
      */
-    public static void sumOfArrayElements(int[] array) {
+    public static void sumOfArrayElementsOverFive(int[] array) {
         int sum = 0;
         for (int i : array) {
-            sum += i;
+            if (i > 5) {
+                sum += i;
+            }
         }
         System.out.println(sum);
     }
@@ -84,5 +84,4 @@ public class AppLessonFive {
                 : "Правая половина массива больше";
         System.out.println(message);
     }
-
 }
