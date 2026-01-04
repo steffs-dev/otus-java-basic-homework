@@ -18,11 +18,16 @@ public class AppLessonSeven {
 //        int[][] array3 = new int[3][];
 //        array3[0] = new int[]{1, 2, 3};
 //        array3[2] = new int[]{4, 5, 6};
+//
+//        int[][] array4 = new int[3][];
+//        array4[0] = new int[]{-1, -2, -3};
+//        array4[1] = new int[]{-4, -5, -6};
+//        array4[2] = new int[]{-7, -8, -9};
 
 //        System.out.println("sumOfPositiveElements(array) = " + sumOfPositiveElements(array2));
 //        printSquare(6);
-//        zeroDiagonals(array2);
-//        System.out.println("findMax(array) = " + findMax(array2));
+//        zeroDiagonals(array1);
+//        System.out.println("findMax(array) = " + findMax(array3));
 //        System.out.println("sumOfSecondRowElements(array) = " + sumOfSecondRowElements(array2));
     }
 
@@ -40,11 +45,12 @@ public class AppLessonSeven {
     public static int sumOfPositiveElements(int[][] array) {
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
-            if (array[i] != null) {
-                for (int j = 0; j < array[i].length; j++) {
-                    if (array[i][j] > 0) {
-                        sum += array[i][j];
-                    }
+            if (array[i] == null) {
+                continue;
+            }
+            for (int j = 0; j < array[i].length; j++) {
+                if (array[i][j] > 0) {
+                    sum += array[i][j];
                 }
             }
         }
@@ -59,18 +65,18 @@ public class AppLessonSeven {
      * Метод печатает в консоль квадрат из символов * со сторонами = size
      *
      * @param size - любой int
-     * @apiNote добавлена проверка, чтобы size было > 0, иначе вывод в консоль сообщения
+     * @apiNote добавлена проверка, чтобы size было > 0, иначе завершение метода и вывод в консоль сообщения
      */
     public static void printSquare(int size) {
-        if (size > 0) {
-            for (int i = 0; i < size; i++) {
-                for (int j = 0; j < size; j++) {
-                    System.out.print('*');
-                }
-                System.out.println();
-            }
-        } else {
+        if (size <= 0) {
             System.out.println("Число должно быть больше 0");
+            return;
+        }
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                System.out.print('*');
+            }
+            System.out.println();
         }
     }
 
@@ -87,17 +93,28 @@ public class AppLessonSeven {
      */
     public static void zeroDiagonals(int[][] array) {
         for (int i = 0; i < array.length; i++) {
-            if (array[i] != null && array[i].length > 0) {
-                int backwardCounter = array.length - 1 - i;
-                array[i][i] = 0;
-                array[i][backwardCounter] = 0;
+            if (array[i] == null || array[i].length == 0) {
+                continue;
             }
+            int backwardCounter = array.length - 1 - i;
+            array[i][i] = 0;
+            array[i][backwardCounter] = 0;
         }
+        printArray(array);
+    }
+
+    /**
+     * Внутренний метод для вывода в консоль двухмерного массива
+     *
+     * @param array - двухмерный массив int
+     */
+    private static void printArray(int[][] array) {
         for (int[] row : array) {
-            if (row != null) {
-                for (int el : row) {
-                    System.out.print(el + " ");
-                }
+            if (row == null) {
+                continue;
+            }
+            for (int el : row) {
+                System.out.print(el + " ");
             }
             System.out.println();
         }
@@ -121,11 +138,12 @@ public class AppLessonSeven {
             }
         }
         for (int i = 0; i < array.length; i++) {
-            if (array[i] != null) {
-                for (int j = 1; j < array[i].length; j++) {
-                    //max = Math.max(max, array[i][j]);
-                    max = (array[i][j] > max) ? array[i][j] : max;
-                }
+            if (array[i] == null) {
+                continue;
+            }
+            for (int j = 0; j < array[i].length; j++) {
+                //max = Math.max(max, array[i][j]);
+                max = (array[i][j] > max) ? array[i][j] : max;
             }
         }
         return max;
@@ -145,14 +163,13 @@ public class AppLessonSeven {
      * @apiNote добавлена проверка на not null и пустые массивы внутри двухмерного массива.
      */
     public static int sumOfSecondRowElements(int[][] array) {
-        int result = 0;
         int numberOfRowToSum = 1; //номер строки массива для суммирования
-        if (array.length >= 2 && array[numberOfRowToSum] != null && array[numberOfRowToSum].length > 0) {
-            for (int i = 0; i < array[numberOfRowToSum].length; i++) {
-                result += array[numberOfRowToSum][i];
-            }
-        } else {
-            result = -1;
+        if (array.length < 2 || array[numberOfRowToSum] == null) {
+            return -1;
+        }
+        int result = 0;
+        for (int i = 0; i < array[numberOfRowToSum].length; i++) {
+            result += array[numberOfRowToSum][i];
         }
         return result;
     }
