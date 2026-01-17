@@ -1,10 +1,19 @@
-package ru.otus.java.basic.homeworx.homework_lesson_10;
+package ru.otus.java.basic.homeworx.homework_lesson_10.BoxApp;
 
 /**
  * Интерфейс с текстами сообщений, выводимых в консоль
  */
 public interface Messages {
-    String welcomeMessage = "\nHi, the box is created!\n";
+
+    String onHandlesCreationMessage = "Just a couple of steps remain to start working with a box";
+
+    String boxRequest = "Please enter the box %s:\n";
+
+    String sizeRequirements = "size (it must be greater than 0)";
+
+    String colourRequirements = "colour (it mustn't be empty or contain only whitespace(s))";
+
+    String onBoxCreationMessage = "\nHi, the box is created!\n";
 
     String listOfCommands = """
             To work with the box, use the following commands:
@@ -29,7 +38,9 @@ public interface Messages {
                         
             """;
 
-    String setColour = "Colour of the Box has been successfully changed. Current colour is %s";
+    String setColour = "Colour of the Box has been successfully changed. Current colour is %s\n";
+
+    String setSize = "Size of the Box has been successfully filled. Current size is %d\n";
 
     String boxOpened = "Box's opened";
 
@@ -38,6 +49,8 @@ public interface Messages {
     String boxIsFullAndClosedWarn = "The box's full and closed. Take an item from the box and open it first";
 
     String boxIsEmptyAndClosedWarn = "The box's empty and closed. Place an item into the box and open it first";
+
+    String incorrectValueWarn = "Incorrect %s\n";
 
     String boxIsFullWarn = "The box's full. Take an item from the box first";
 
