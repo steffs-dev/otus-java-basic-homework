@@ -2,6 +2,8 @@ package ru.otus.java.basic.homeworx.homework_lesson_16.collections;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 /**
  * Класс с методами для работы с коллекцией List
@@ -16,7 +18,7 @@ public class CollectionsMethods {
      * @return заполненный ArrayList
      * @throws IllegalArgumentException - если min > max
      */
-    public ArrayList<Integer> fillArrayList(int min, int max) {
+    public List<Integer> fillArrayList(int min, int max) {
         if (min > max) {
             throw new IllegalArgumentException("Недопустимое значение: min должен " +
                     "быть меньше или равен max");
