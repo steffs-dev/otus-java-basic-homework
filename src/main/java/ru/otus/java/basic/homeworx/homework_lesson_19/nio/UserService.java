@@ -106,6 +106,7 @@ public class UserService {
         filePath = null;
         if (!fileName.endsWith(".txt")) {
             System.out.println("Неверное наименование и/или тип файла");
+            return;
         }
         filePath = filesService.find(fileName, TYPE);
 
