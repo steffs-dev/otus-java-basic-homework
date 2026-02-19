@@ -1,0 +1,2 @@
+
+A buffer is a container for a fixed amount of data of a specific primitive type. In addition to its content a buffer has a position, which is the index of the next element to be read or written, and a limit, which is the index of the first element that should not be read or written. The base Buffer class defines these properties as well as methods for clearing, flipping, and rewinding, for marking the current position, and for resetting the position to the previous mark.
