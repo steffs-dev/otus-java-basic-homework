@@ -1,5 +1,5 @@
 -- создание БД
-CREATE DATABASE quiz;
+CREATE DATABASE IF NOT EXISTS quiz;
 
 -- создание таблицы с тестами (tests).
 -- name (название теста): max количество символов = 100, значения д.б. уникальны, не null, не пустое
@@ -20,6 +20,9 @@ test_id INTEGER NOT NULL REFERENCES tests(id) ON DELETE CASCADE,
 question TEXT CHECK(question != '')
 );
 
+--создание индекса нап столбец test_id
+CREATE INDEX index_test_id ON questions (test_id);
+
 -- создание таблицы с ответами (answers).
 -- question_id - id вопроса (foreign key), к которому относится ответ, поле д.б. не null, при удалении теста, удаляется относящийся к нему вопрос
 -- answer (содержание ответа): поле должно не быть пустым. Количество символов, составляющих ответ не ограничено
@@ -31,6 +34,9 @@ question_id INTEGER NOT NULL REFERENCES questions(id) ON DELETE CASCADE,
 answer TEXT NOT NULL CHECK(answer != ''),
 is_correct BOOLEAN DEFAULT FALSE
 );
+
+--создание индекса нап столбец question_id таблицы answers
+CREATE INDEX indx_question_id ON answers (question_id);
 
 -- создание функции для проверки соответствия ответов заданным критериям (д.б. от 2 до 5 ответов; должен быть 1 верный ответ)
 CREATE OR REPLACE FUNCTION answers_count_validation()
