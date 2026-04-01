@@ -1,0 +1,5 @@
+ERROR 2026-04-01 14:21:24 [main] ru.otus.java.basic.homeworx.homework_lesson_31.MethodsForTests (MethodsForTests.java:12) - Empty array
+WARN  2026-04-01 14:21:24 [main] ru.otus.java.basic.homeworx.homework_lesson_31.MethodsForTests (MethodsForTests.java:25) - Target figure was not found
+DEBUG 2026-04-01 14:21:24 [main] ru.otus.java.basic.homeworx.homework_lesson_31.MethodsForTests (MethodsForTests.java:50) - Inappropriate element in the array: 3
+DEBUG 2026-04-01 14:21:24 [main] ru.otus.java.basic.homeworx.homework_lesson_31.MethodsForTests (MethodsForTests.java:50) - Inappropriate element in the array: 3
+WARN  2026-04-01 14:24:12 [main] ru.otus.java.basic.homeworx.homework_lesson_31.MethodsForTests (MethodsForTests.java:27) - Target figure was not found
