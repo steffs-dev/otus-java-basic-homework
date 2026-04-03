@@ -1,0 +1,15 @@
+Цели занятия
+Изучить принцип работы с потоками ввода/вывода
+
+Краткое содержание
+Reader, Writer;
+FileReader, FileWriter;
+BufferedReader, PrintWriter;
+SequenceInputStream;
+RandomAccessFile;
+ObjectInputStream, ObjectOutputStream (Serializable, Externalizable);
+классы Paths, Path, Files;
+практика.
+
+Результаты
+умение работать с потоками ввода/вывода.
