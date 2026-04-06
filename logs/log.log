@@ -3,3 +3,382 @@ WARN  2026-04-01 14:21:24 [main] ru.otus.java.basic.homeworx.homework_lesson_31.
 DEBUG 2026-04-01 14:21:24 [main] ru.otus.java.basic.homeworx.homework_lesson_31.MethodsForTests (MethodsForTests.java:50) - Inappropriate element in the array: 3
 DEBUG 2026-04-01 14:21:24 [main] ru.otus.java.basic.homeworx.homework_lesson_31.MethodsForTests (MethodsForTests.java:50) - Inappropriate element in the array: 3
 WARN  2026-04-01 14:24:12 [main] ru.otus.java.basic.homeworx.homework_lesson_31.MethodsForTests (MethodsForTests.java:27) - Target figure was not found
+INFO  2026-04-03 11:42:00 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 11:43:03 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 11:43:03 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 11:43:03 [HttpServer-Thread-48] ru.otus.java.basic.homeworx.homework_lesson_32.RequestHandler (RequestHandler.java:24) - GET / HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="146", "Not-A.Brand";v="24", "Google Chrome";v="146"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+INFO  2026-04-03 11:44:21 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 11:44:21 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - main Accepted connection from kubernetes.docker.internal
+INFO  2026-04-03 11:44:21 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - main Accepted connection from kubernetes.docker.internal
+INFO  2026-04-03 11:44:21 [HttpServer-Thread-31] ru.otus.java.basic.homeworx.homework_lesson_32.RequestHandler (RequestHandler.java:24) - GET / HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="146", "Not-A.Brand";v="24", "Google Chrome";v="146"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+INFO  2026-04-03 11:44:22 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - main Accepted connection from kubernetes.docker.internal
+INFO  2026-04-03 11:45:10 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 11:45:13 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 11:45:13 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 11:45:13 [HttpServer-Thread-32] ru.otus.java.basic.homeworx.homework_lesson_32.RequestHandler (RequestHandler.java:24) - GET / HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="146", "Not-A.Brand";v="24", "Google Chrome";v="146"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+INFO  2026-04-03 11:45:45 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 11:45:45 [HttpServer-Thread-32] ru.otus.java.basic.homeworx.homework_lesson_32.RequestHandler (RequestHandler.java:24) - GET / HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+sec-ch-ua: "Not(A:Brand";v="8", "Chromium";v="144", "YaBrowser";v="26.3", "Yowser";v="2.5"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 YaBrowser/26.3.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru,en;q=0.9
+
+
+INFO  2026-04-03 11:45:45 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 15:45:55 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 15:46:13 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 15:46:13 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 15:47:15 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 15:47:17 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 15:47:17 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 15:51:03 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 15:51:13 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 15:51:13 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 16:28:11 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 16:28:19 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 16:28:19 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 16:28:50 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 16:28:50 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 16:28:50 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-03 16:28:50 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-03 16:31:24 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 16:31:25 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 16:31:25 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-03 16:33:08 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 16:33:08 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 16:33:08 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-03 16:33:08 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-03 16:35:12 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 16:35:12 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 16:35:12 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-03 16:36:30 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 16:36:33 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 16:36:33 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 16:51:18 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 16:52:03 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 16:52:03 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 16:52:59 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 16:52:59 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-03 16:52:59 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-03 16:52:59 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-03 16:54:02 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 16:54:06 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 16:54:06 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 16:54:06 [HttpServer-Thread-31] ru.otus.java.basic.homeworx.homework_lesson_32.RequestParser (RequestParser.java:72) - line GET / HTTP/1.1
+INFO  2026-04-03 16:54:06 [HttpServer-Thread-31] ru.otus.java.basic.homeworx.homework_lesson_32.RequestParser (RequestParser.java:73) - start 4 substr / HTTP/1.1
+INFO  2026-04-03 16:54:06 [HttpServer-Thread-31] ru.otus.java.basic.homeworx.homework_lesson_32.RequestParser (RequestParser.java:74) - end 5 substr  HTTP/1.1
+INFO  2026-04-03 16:54:06 [HttpServer-Thread-31] ru.otus.java.basic.homeworx.homework_lesson_32.RequestParser (RequestParser.java:75) - path GET / HTTP/1.1
+INFO  2026-04-03 16:54:19 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 16:54:31 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 16:54:31 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 16:54:31 [HttpServer-Thread-31] ru.otus.java.basic.homeworx.homework_lesson_32.RequestParser (RequestParser.java:72) - line GET / HTTP/1.1
+INFO  2026-04-03 16:54:31 [HttpServer-Thread-31] ru.otus.java.basic.homeworx.homework_lesson_32.RequestParser (RequestParser.java:73) - start 4 substr / HTTP/1.1
+INFO  2026-04-03 16:54:31 [HttpServer-Thread-31] ru.otus.java.basic.homeworx.homework_lesson_32.RequestParser (RequestParser.java:74) - end 5 substr  HTTP/1.1
+INFO  2026-04-03 16:54:31 [HttpServer-Thread-31] ru.otus.java.basic.homeworx.homework_lesson_32.RequestParser (RequestParser.java:75) - path GET / HTTP/1.1
+INFO  2026-04-03 16:55:51 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-03 16:55:51 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-03 16:55:51 [HttpServer-Thread-31] ru.otus.java.basic.homeworx.homework_lesson_32.RequestParser (RequestParser.java:71) - line GET / HTTP/1.1
+INFO  2026-04-03 16:55:51 [HttpServer-Thread-31] ru.otus.java.basic.homeworx.homework_lesson_32.RequestParser (RequestParser.java:72) - start 4 substr / HTTP/1.1
+INFO  2026-04-03 16:55:51 [HttpServer-Thread-31] ru.otus.java.basic.homeworx.homework_lesson_32.RequestParser (RequestParser.java:73) - end 5 substr  HTTP/1.1
+INFO  2026-04-03 16:55:51 [HttpServer-Thread-31] ru.otus.java.basic.homeworx.homework_lesson_32.RequestParser (RequestParser.java:74) - path /
+INFO  2026-04-03 16:55:51 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-03 16:55:51 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-04 17:35:59 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 17:36:06 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from Asus-Vivo
+INFO  2026-04-04 17:36:06 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from Asus-Vivo
+INFO  2026-04-04 17:37:31 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 17:37:31 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 17:37:31 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-04 17:37:31 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-04 17:38:07 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 17:39:33 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 17:39:33 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 17:39:33 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-04 17:41:13 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 17:41:19 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 17:41:19 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 17:42:46 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 17:42:46 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-04 17:42:46 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-04 17:42:46 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-04 17:44:17 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 17:44:20 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 17:44:20 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 17:44:28 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 17:44:51 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 17:44:51 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 17:46:00 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 17:54:13 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 17:54:17 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 17:54:17 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:02:32 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 18:05:35 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 18:05:46 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:05:46 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:05:58 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:09:14 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 18:09:21 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:09:21 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:09:27 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:09:27 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:09:32 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:09:32 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:10:02 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:11:02 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:11:02 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:17:50 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 18:17:58 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:17:58 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:19:01 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 18:19:08 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:19:08 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:19:28 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 18:19:33 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:19:33 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:19:34 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:19:39 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:20:02 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 18:20:06 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:20:06 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:20:08 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:20:13 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:21:53 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:21:53 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:22:27 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 18:22:35 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:22:35 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:23:37 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-04 18:23:41 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-04 18:23:41 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 13:21:08 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-05 13:21:17 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 13:21:48 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 13:21:48 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 13:22:09 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-05 13:22:09 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 13:22:09 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-05 13:22:09 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-05 13:22:46 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-05 13:22:46 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-05 13:22:46 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from kubernetes.docker.internal
+INFO  2026-04-05 13:23:32 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-05 13:23:32 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 13:26:11 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-05 13:26:20 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 13:26:22 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 13:26:33 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 13:26:33 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 13:26:48 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 13:26:48 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 14:06:47 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-05 14:06:57 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 14:06:58 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 14:06:58 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 14:07:05 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 14:07:05 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 14:07:13 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 14:13:42 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-05 14:13:56 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 14:13:56 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 14:13:57 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 14:14:27 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 14:14:27 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 14:14:39 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:30:10 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-05 21:30:30 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:30:31 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:30:39 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:30:39 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:31:04 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:31:04 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:31:12 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:31:12 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:32:33 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:32:33 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:33:46 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-05 21:34:28 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:34:28 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:35:01 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:35:01 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:37:15 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-05 21:37:23 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:37:23 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:38:09 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:38:09 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+ERROR 2026-04-05 21:38:25 [HttpServer-Thread-42] ru.otus.java.basic.homeworx.homework_lesson_32.Processors.CreateItemsProcessor (CreateItemsServlet.java:29) - Error while parsing JSON to Item Unrecognized token 'T': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+INFO  2026-04-05 21:38:27 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:38:27 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:42:11 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-05 21:42:19 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:42:19 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+ERROR 2026-04-05 21:42:31 [HttpServer-Thread-43] ru.otus.java.basic.homeworx.homework_lesson_32.Processors.CreateItemsProcessor (CreateItemsServlet.java:29) - Error while parsing JSON to Item Unrecognized token 'T': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+INFO  2026-04-05 21:53:14 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-05 21:53:25 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:53:25 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:53:52 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:53:52 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:54:03 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:54:03 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:54:37 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:54:37 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+ERROR 2026-04-05 21:55:13 [HttpServer-Thread-43] ru.otus.java.basic.homeworx.homework_lesson_32.Processors.CreateItemsProcessor (CreateItemsServlet.java:29) - Error while parsing JSON to Item Unrecognized token 'T': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+INFO  2026-04-05 21:56:20 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-05 21:56:28 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:56:28 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+ERROR 2026-04-05 21:56:29 [HttpServer-Thread-43] ru.otus.java.basic.homeworx.homework_lesson_32.Processors.CreateItemsProcessor (CreateItemsServlet.java:29) - Error while parsing JSON to Item Unrecognized token 'T': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+INFO  2026-04-05 21:59:16 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-05 21:59:19 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 21:59:19 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+ERROR 2026-04-05 21:59:21 [HttpServer-Thread-43] ru.otus.java.basic.homeworx.homework_lesson_32.Processors.CreateItemsProcessor (CreateItemsServlet.java:29) - Error while parsing JSON to Item Unrecognized token 'T': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+INFO  2026-04-05 22:00:25 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-05 22:00:28 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-05 22:00:28 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+ERROR 2026-04-05 22:00:28 [HttpServer-Thread-43] ru.otus.java.basic.homeworx.homework_lesson_32.Processors.CreateItemsProcessor (CreateItemsServlet.java:29) - Error while parsing JSON to Item Unrecognized token 'T': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+INFO  2026-04-06 12:27:20 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-06 12:27:30 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:27:30 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:27:37 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:27:37 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:27:46 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:27:46 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:28:07 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:28:07 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:28:11 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:28:11 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:28:17 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:28:17 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:28:39 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:28:39 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:28:56 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:28:56 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:59:17 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:25) - HttpServer started on port 8081
+INFO  2026-04-06 12:59:28 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:59:29 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:59:52 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 12:59:52 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:29) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:12:58 [main] ru.otus.java.basic.homeworx.homework_lesson_32.DataSource (DataSource.java:39) - Table reg_users created in DB
+INFO  2026-04-06 15:12:58 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:36) - HttpServer started on port 8081
+INFO  2026-04-06 15:14:22 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:14:22 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+ERROR 2026-04-06 15:14:23 [HttpServer-Thread-45] ru.otus.java.basic.homeworx.homework_lesson_32.Processors.CreateItemsProcessor (CreateItemsProcessor.java:40) - Error while saving Item to DB ОШИБКА: значение NULL в столбце "id" отношения "items" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Milk, 111).
+INFO  2026-04-06 15:18:08 [main] ru.otus.java.basic.homeworx.homework_lesson_32.DataSource (DataSource.java:39) - Table reg_users created in DB
+INFO  2026-04-06 15:18:08 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:36) - HttpServer started on port 8081
+INFO  2026-04-06 15:18:28 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:18:28 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+ERROR 2026-04-06 15:18:29 [HttpServer-Thread-45] ru.otus.java.basic.homeworx.homework_lesson_32.Processors.CreateItemsProcessor (CreateItemsProcessor.java:41) - Error while saving Item to DB ОШИБКА: значение NULL в столбце "id" отношения "items" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Milk, 111).
+INFO  2026-04-06 15:20:14 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:20:14 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+ERROR 2026-04-06 15:20:14 [HttpServer-Thread-47] ru.otus.java.basic.homeworx.homework_lesson_32.Processors.CreateItemsProcessor (CreateItemsProcessor.java:41) - Error while saving Item to DB ОШИБКА: значение NULL в столбце "id" отношения "items" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Milk, 111).
+INFO  2026-04-06 15:20:38 [main] ru.otus.java.basic.homeworx.homework_lesson_32.DataSource (DataSource.java:39) - Table reg_users created in DB
+INFO  2026-04-06 15:20:38 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:36) - HttpServer started on port 8081
+INFO  2026-04-06 15:20:43 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:20:43 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+ERROR 2026-04-06 15:20:43 [HttpServer-Thread-45] ru.otus.java.basic.homeworx.homework_lesson_32.Processors.CreateItemsProcessor (CreateItemsProcessor.java:42) - Error while saving Item to DB ОШИБКА: значение NULL в столбце "id" отношения "items" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Milk, 111).
+INFO  2026-04-06 15:21:44 [main] ru.otus.java.basic.homeworx.homework_lesson_32.DataSource (DataSource.java:39) - Table reg_users created in DB
+INFO  2026-04-06 15:21:44 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:36) - HttpServer started on port 8081
+INFO  2026-04-06 15:21:59 [main] ru.otus.java.basic.homeworx.homework_lesson_32.DataSource (DataSource.java:39) - Table reg_users created in DB
+INFO  2026-04-06 15:21:59 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:36) - HttpServer started on port 8081
+INFO  2026-04-06 15:22:04 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:22:04 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+ERROR 2026-04-06 15:22:04 [HttpServer-Thread-45] ru.otus.java.basic.homeworx.homework_lesson_32.Processors.CreateItemsProcessor (CreateItemsProcessor.java:41) - Error while saving Item to DB ОШИБКА: значение NULL в столбце "id" отношения "items" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Milk, 111).
+INFO  2026-04-06 15:32:51 [main] ru.otus.java.basic.homeworx.homework_lesson_32.DataSource (DataSource.java:39) - Table reg_users created in DB
+INFO  2026-04-06 15:32:51 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:36) - HttpServer started on port 8081
+INFO  2026-04-06 15:32:57 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:32:57 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+ERROR 2026-04-06 15:32:57 [HttpServer-Thread-45] ru.otus.java.basic.homeworx.homework_lesson_32.Processors.CreateItemsProcessor (CreateItemsProcessor.java:41) - Error while saving Item to DB ОШИБКА: значение NULL в столбце "id" отношения "items" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Milk, 111).
+INFO  2026-04-06 15:43:03 [main] ru.otus.java.basic.homeworx.homework_lesson_32.DataSource (DataSource.java:39) - Table reg_users created in DB
+INFO  2026-04-06 15:43:03 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:36) - HttpServer started on port 8081
+INFO  2026-04-06 15:43:52 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:43:52 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:44:14 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:44:14 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:45:08 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:45:08 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+ERROR 2026-04-06 15:45:08 [HttpServer-Thread-49] ru.otus.java.basic.homeworx.homework_lesson_32.Processors.CreateItemsProcessor (CreateItemsProcessor.java:36) - Error while parsing JSON to Item Cannot deserialize value of type `ru.otus.java.basic.homeworx.homework_lesson_32.Entities.Item` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+INFO  2026-04-06 15:45:51 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:45:51 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:46:28 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:46:28 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:46:38 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 15:46:38 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:40) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 16:11:35 [main] ru.otus.java.basic.homeworx.homework_lesson_32.DataSource (DataSource.java:39) - Table reg_users created in DB
+INFO  2026-04-06 16:11:35 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:37) - HttpServer started on port 8081
+INFO  2026-04-06 16:11:39 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:41) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 16:11:39 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:41) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 16:11:50 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:41) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 16:11:50 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:41) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 16:11:55 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:41) - Accepted connection from 0:0:0:0:0:0:0:1
+INFO  2026-04-06 16:12:07 [main] ru.otus.java.basic.homeworx.homework_lesson_32.HttpServer (HttpServer.java:41) - Accepted connection from 0:0:0:0:0:0:0:1
