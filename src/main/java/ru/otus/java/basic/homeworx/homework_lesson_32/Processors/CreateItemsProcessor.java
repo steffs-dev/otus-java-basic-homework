@@ -41,12 +41,12 @@ public class CreateItemsProcessor implements Processor {
         } catch (JsonProcessingException e) {
             log.error("Error while parsing JSON to Item {}", e.getMessage());
             response = "" +
-                    "HTTP/1.1 500 Internal Server Error\r\n";
+                    "HTTP/1.1 500 Internal Server Error\r\n\r\n";
             writer.println(response);
         } catch (SQLException e) {
             log.error("Error while saving Item to DB {}", e.getMessage());
             response = "" +
-                    "HTTP/1.1 500 Internal Server Error\r\n";
+                    "HTTP/1.1 500 Internal Server Error\r\n\r\n";
             writer.println(response);
         }
     }

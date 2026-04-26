@@ -43,7 +43,7 @@ public class Item {
         return price;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -51,7 +51,7 @@ public class Item {
         this.name = name;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(Integer price) {
         this.price = price;
     }
 
