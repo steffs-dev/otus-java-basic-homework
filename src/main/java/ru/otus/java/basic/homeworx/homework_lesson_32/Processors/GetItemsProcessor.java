@@ -30,8 +30,9 @@ public class GetItemsProcessor implements Processor {
             items = httpServer.getItems();
         } catch (SQLException e) {
             log.error("Failed to get items from http server {}", e.getMessage());
-            throw new RuntimeException("Failed to get items from http server", e);
-        }
+            response = "" +
+                    "HTTP/1.1 500 Internal Server Error\r\n";
+            writer.println(response);        }
         try {
             String jsonItem = mapper.writeValueAsString(items);
             response = "" +

@@ -23,10 +23,12 @@ public class HttpServer {
     private final int PORT = 8081;
     private final ExecutorService executor;
     private final DBService dbService;
+    private final Dispatcher dispatcher;
 
     private static final Logger log = LogManager.getLogger(HttpServer.class);
 
     public HttpServer() {
+        dispatcher = new Dispatcher();
         executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors(),
                 threadFactory());
         try {
@@ -35,6 +37,10 @@ public class HttpServer {
             log.error("Ошибка при подключении к БД. {}", e.getMessage());
             throw new RuntimeException("Ошибка при подключении к БД. " + e);
         }
+    }
+
+    public Dispatcher getDispatcher() {
+        return dispatcher;
     }
 
     /**

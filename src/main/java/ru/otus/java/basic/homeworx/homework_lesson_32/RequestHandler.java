@@ -18,7 +18,6 @@ public class RequestHandler implements Runnable {
     private BufferedReader reader;
     private PrintWriter writer;
     private RequestParser parser;
-    private final Dispatcher dispatcher;
     private final HttpServer httpServer;
 
     private static final Logger logger = LogManager.getLogger(RequestHandler.class);
@@ -33,14 +32,13 @@ public class RequestHandler implements Runnable {
         } catch (IOException e) {
             logger.error("Exception while opening input stream {}", e.getMessage());
         }
-        dispatcher = new Dispatcher();
     }
 
     @Override
     public void run() {
         try {
             parser.parseInput();
-            dispatcher.handle(parser, writer, httpServer);
+            httpServer.getDispatcher().handle(parser, writer, httpServer);
         } catch (IOException e) {
             logger.error("Error while processing request {}", e.getMessage());
         } finally {
